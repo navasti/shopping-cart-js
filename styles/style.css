@@ -45,6 +45,7 @@ header .logo {
 .home-container {
   height: 92vh;
   position: relative;
+  border-bottom: 1px solid #fff;
 }
 
 .home-container .main-text {
@@ -130,14 +131,26 @@ header .logo {
 
 .offer {
   min-height: 100vh;
-  border-top: 1px solid #fff;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 125rem;
   text-align: center;
 }
 
 .offer h2 {
   font-size: 5rem;
   letter-spacing: 3px;
-  margin: 5rem 0;
+  margin: 7rem 0;
   text-transform: uppercase;
 }
 
@@ -145,6 +158,55 @@ header .logo {
   font-size: 2.6rem;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.offer .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offer .products .product {
+  width: 30%;
+}
+
+.offer .products .product .example-img {
+  margin-bottom: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.offer .products .product .example-img img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.offer .products .product .example-img .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -4.5px;
+  font-size: 1.8rem;
+}
+
+.offer .products .product .example-img .about .info {
+  padding-left: 1rem;
+}
+
+.offer .products .product .example-img .about span {
+  display: block;
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  font-size: 2rem;
 }
 
 footer {
