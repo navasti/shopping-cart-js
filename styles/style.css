@@ -33,8 +33,16 @@ header {
   border-bottom: 1px solid #fff;
 }
 
-header i {
+header .fa-shopping-cart {
   font-size: 2.4rem;
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+header .fa-shopping-cart:hover {
+  color: #999;
 }
 
 header .logo {
@@ -150,7 +158,7 @@ header .logo {
 .offer h2 {
   font-size: 5rem;
   letter-spacing: 3px;
-  margin: 7rem 0;
+  margin: 10rem 0 7rem 0;
   text-transform: uppercase;
 }
 

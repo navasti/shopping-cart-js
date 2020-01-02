@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Poppins&display=swap');
-
+// global/variables
 *{
     padding: 0;
     margin: 0;
@@ -27,7 +27,8 @@ header{
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid #fff;
-    i{font-size: 2.4rem;}
+    .fa-shopping-cart{font-size: 2.4rem; position: relative; transition: .3s; cursor: pointer;}
+    .fa-shopping-cart:hover{color: #999;}
     .logo{font-family: $dancing-script-font; font-size: 2.6rem;}
 }
 // Header ends
@@ -110,7 +111,7 @@ header{
     align-items: center;
     max-width: 125rem;
     text-align: center;
-    h2{font-size: 5rem; letter-spacing: 3px; margin: 7rem 0; text-transform: uppercase;}
+    h2{font-size: 5rem; letter-spacing: 3px; margin: 10rem 0 7rem 0; text-transform: uppercase;}
     h3{font-size: 2.6rem; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 1rem;}
     .products{
         display: flex;
