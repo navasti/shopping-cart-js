@@ -38,6 +38,7 @@ html body span {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 1rem 2rem;
+  overflow: scroll;
 }
 
 .cart-container h2 {
