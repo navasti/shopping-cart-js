@@ -386,12 +386,12 @@ header .logo {
   font-size: 2rem;
 }
 
-.offer-container .products .product-category .example-img:hover img {
+.offer-container .products .product-category .img-container:hover img {
   -webkit-filter: grayscale(130%);
           filter: grayscale(130%);
 }
 
-.offer-container .products .product-category .example-img:hover .buy-button {
+.offer-container .products .product-category .img-container:hover .buy-button {
   opacity: 1;
   cursor: pointer;
 }

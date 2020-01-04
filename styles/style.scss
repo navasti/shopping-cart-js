@@ -220,8 +220,8 @@ header{
                     }
                 }
             }
-        .example-img:hover img{filter: grayscale(130%);}
-        .example-img:hover .buy-button{opacity: 1; cursor: pointer;}
+        .img-container:hover img{filter: grayscale(130%);}
+        .img-container:hover .buy-button{opacity: 1; cursor: pointer;}
     }
 }
 }
