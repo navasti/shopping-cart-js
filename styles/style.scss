@@ -13,6 +13,8 @@ $dancing-script-font: 'Dancing Script', cursive;
 html{
     font-size: 10px;
     body{
+        width: 100%;
+        overflow-x: hidden;
         color: #fff;
         font-family: $main-font-family;
         background-color: $main-brown-color;
@@ -23,7 +25,8 @@ html{
 // Cart starts
 .cart-container{
     position: fixed;
-    // display: none;
+    transition: .3s linear;
+    transform: translateX(101%);
     right: 0;
     top: 8vh;
     width: 50%;
