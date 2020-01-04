@@ -188,7 +188,7 @@ header{
         justify-content: space-between;
         .product-category{
             width: 30%;
-            .example-img{
+            .img-container{
             margin-bottom: 3rem;
             position: relative;
             border: 1px solid rgba(255, 255, 255, .6);
@@ -212,7 +212,7 @@ header{
                     margin-top: -4.5px;
                     font-size: 1.8rem;
                     .info{padding: 0 1rem;}
-                    span{
+                    p{
                         display: block;
                         border-left: 1px solid rgba(255, 255, 255, .6);
                         padding: 1rem;
@@ -290,7 +290,7 @@ footer{
         h3{font-size: 2rem;}
         .products{
             .product-category{
-                .example-img{
+                .img-container{
                     .about{font-size: 1.6rem;
                         .info{padding-left: 1rem;}
                         span{font-size: 1.8rem;}
@@ -320,7 +320,7 @@ footer{
             align-items: center;
             .product-category{
                 width: 80%;
-                .example-img{
+                .img-container{
                     .buy-button{
                         font-size: 1.7rem;
                     }

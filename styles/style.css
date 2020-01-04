@@ -333,13 +333,13 @@ header .logo {
   width: 30%;
 }
 
-.offer-container .products .product-category .example-img {
+.offer-container .products .product-category .img-container {
   margin-bottom: 3rem;
   position: relative;
   border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
-.offer-container .products .product-category .example-img .buy-button {
+.offer-container .products .product-category .img-container .buy-button {
   position: absolute;
   opacity: 0;
   -webkit-transition: .6s ease;
@@ -356,12 +356,12 @@ header .logo {
   border: 1px solid white;
 }
 
-.offer-container .products .product-category .example-img img {
+.offer-container .products .product-category .img-container img {
   width: 100%;
   max-width: 100%;
 }
 
-.offer-container .products .product-category .example-img .about {
+.offer-container .products .product-category .img-container .about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,11 +375,11 @@ header .logo {
   font-size: 1.8rem;
 }
 
-.offer-container .products .product-category .example-img .about .info {
+.offer-container .products .product-category .img-container .about .info {
   padding: 0 1rem;
 }
 
-.offer-container .products .product-category .example-img .about span {
+.offer-container .products .product-category .img-container .about p {
   display: block;
   border-left: 1px solid rgba(255, 255, 255, 0.6);
   padding: 1rem;
@@ -505,13 +505,13 @@ footer span {
   .offer-container h3 {
     font-size: 2rem;
   }
-  .offer-container .products .product-category .example-img .about {
+  .offer-container .products .product-category .img-container .about {
     font-size: 1.6rem;
   }
-  .offer-container .products .product-category .example-img .about .info {
+  .offer-container .products .product-category .img-container .about .info {
     padding-left: 1rem;
   }
-  .offer-container .products .product-category .example-img .about span {
+  .offer-container .products .product-category .img-container .about span {
     font-size: 1.8rem;
   }
 }
@@ -555,7 +555,7 @@ footer span {
   .offer-container .products .product-category {
     width: 80%;
   }
-  .offer-container .products .product-category .example-img .buy-button {
+  .offer-container .products .product-category .img-container .buy-button {
     font-size: 1.7rem;
   }
   footer {
