@@ -9,10 +9,40 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+    <!-- Cart Container -->
+    <div class="cart-container">
+        <div class="exit"><i class="fas fa-times"></i></div>
+        <h2>Your items</h2>
+        <div class="cart-content">
+            <div class="item-info">
+                <p>Product</p>
+                <p>Unit price</p>
+                <p>QTY</p>
+                <p>Total price</p>
+            </div>
+            <div class="item-details">
+                <div class="item">
+                    <img src="./images/brown-leather.jpg" alt="brown-leather-sofa">
+                    <p>Brown Leather Sofa</p>
+                </div>
+                <div class="unit-price ">$349.99</div>
+                <div class="qty">1
+                    <div class="qty-buttons">
+                        <i class="fas fa-chevron-up"></i>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="total-price">$349.99<button class="remove-item">remove</button></div>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
     <header>
         <p class="logo">Shopping Cart</p>
         <i class="fas fa-shopping-cart"></i>
     </header>
+
+    <!-- Home Container -->
     <section class="home-container">
         <div class="main-text">
             <h1>Arrange your home</h1>
@@ -21,54 +51,68 @@
         </div>
     </section>
 
-    <section class="offer">
+    <!-- Offer Container -->
+    <section class="offer-container">
         <h2>Available products at the moment</h2>
         <div class="products">
-            <div class="product">
+            <!-- Product Category -->
+            <div class="product-category">
                 <h3>Sofas</h3>
+                <!-- Single product -->
                 <div class="example-img">
                     <img src="./images/brown-leather.jpg" alt="brown-leather-sofa">
+                    <div class="buy-button">Add to cart</div>
                     <div class="about">
                         <p class="info">Brown leather sofa</p>
                         <span>$349.99</span>
                     </div>
                 </div>
+
                 <div class="example-img">
                     <img src="./images/black-fabric.jpg" alt="black-fabric">
+                    <div class="buy-button">Add to cart</div>
                     <div class="about">
                         <p class="info">Black fabric sofa</p>
                         <span>$349.99</span>
                     </div>
                 </div>
             </div>
-            <div class="product">
+
+            <div class="product-category">
                 <h3>Beds</h3>
                 <div class="example-img">
                     <img src="./images/decorated-bed.jpg" alt="decorated-bed">
+                    <div class="buy-button">Add to cart</div>
                     <div class="about">
                         <p class="info">Decorated bed</p>
                         <span>$149.99</span>
                     </div>
                 </div>
+
                 <div class="example-img">
                     <img src="./images/black-mattress.jpg" alt="black-mattress">
+                    <div class="buy-button">Add to cart</div>
                     <div class="about">
                         <p class="info">Black mattress</p>
                         <span>$99.99</span>
                     </div>
                 </div>
             </div>
-            <div class="product">
+
+            <div class="product-category">
                 <h3>Accessories</h3>
                 <div class="example-img">
                     <img src="./images/cup.jpg" alt="cup">
+                    <div class="buy-button">Add to cart</div>
                     <div class="about">
                         <p class="info">Clay cup</p>
                         <span>$10.99</span>
                     </div>
                 </div>
+
                 <div class="example-img">
                     <img src="./images/cutlery.jpg" alt="cutlery">
+                    <div class="buy-button">Add to cart</div>
                     <div class="about">
                         <p class="info">Cutlery</p>
                         <span>$24.99</span>
@@ -77,14 +121,12 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
     <footer>
         <p>Got a question? Contact us <span class="email"><i class="fas fa-envelope"></i> shopping@cart.com</span> or <span><i class="fas fa-phone-alt"></i> 123 456 789</span></p>
     </footer>
-    <!-- <i class="fas fa-bars"></i>
-    <i class="fas fa-times"></i>
-    <i class="fas fa-chevron-up"></i>
-    <i class="fas fa-chevron-down"></i>
-    <i class="fas fa-envelope"></i> -->
+    
     <script src="./scripts/index.js"></script>
 </body>
 </html>
