@@ -39,6 +39,19 @@ html{
     padding: 1rem 2rem;
     overflow: scroll;
     h2{font-size: 3.6rem; text-align: center; margin-bottom: 2rem;}
+    .if-cart-empty{
+        text-align: center;
+        display: block;
+        font-size: 2.4rem;
+        padding: 1.5rem;
+        border-top: 1px solid rgba(255, 255, 255, .4);
+    }.if-cart-empty.hidden{display: none;}
+    .total-amount{
+        text-align: right;
+        padding: 1.5rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
     .exit{
         position: absolute;
         top: 0; left: 0;
@@ -112,9 +125,23 @@ header{
     background-color: $main-brown-color;
     width: 100%;
     border-bottom: 1px solid #fff;
-    .fa-shopping-cart{font-size: 2.4rem; position: relative; transition: .3s; cursor: pointer;}
+    .fa-shopping-cart{
+        font-size: 2.4rem; 
+        position: relative; 
+        transition: .3s; 
+        cursor: pointer;
+        .cart-amount-icon{
+            position: absolute;
+            top:0; right: 0; transform: translate(50%, -30%);
+            background-color: rgb(172, 67, 7);
+            color: #fff;
+            font-size: 1.4rem;
+            padding: .4rem .6rem;
+            border-radius: 50%;
+        }
+    }
     .fa-shopping-cart:hover{color: #999;}
-    .logo{font-family: $dancing-script-font; font-size: 2.6rem;}
+    .logo{font-family: $dancing-script-font; font-size: 2.6rem; position: relative;}
 }
 // Header ends
 
@@ -145,7 +172,6 @@ header{
             outline: none;
             text-transform: uppercase;
             margin-top: 3rem;
-            cursor: pointer;
         }
         span{position: relative; display: block; font-size: 3.9rem;}
         span::before,span::after{
@@ -212,7 +238,7 @@ header{
                     justify-content: space-between;
                     margin-top: -4.5px;
                     font-size: 1.8rem;
-                    .info{padding: 0 1rem;}
+                    .info{padding: 0 1rem; border: none;}
                     p{
                         display: block;
                         border-left: 1px solid rgba(255, 255, 255, .6);
