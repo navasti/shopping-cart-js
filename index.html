@@ -20,7 +20,7 @@
                 <p>QTY</p>
                 <p>Total price</p>
             </div>
-            <div class="item-details">
+            <!-- <div class="item-details">
                 <div class="item">
                     <img src="./images/brown-leather.jpg" alt="brown-leather-sofa">
                     <p>Brown Leather Sofa</p>
@@ -34,13 +34,15 @@
                     </div>
                 </div>
                 <div class="total-price">$<span>349</span><button class="remove-item">remove</button></div>
-            </div>
+            </div> -->
         </div>
+        <div class="if-cart-empty">Cart is empty</div>
+        <div class="total-amount">To pay: $<span>0</span></div>
     </div>
     <!-- Header -->
     <header>
         <p class="logo">Shopping Cart</p>
-        <i class="fas fa-shopping-cart"></i>
+        <i class="fas fa-shopping-cart"><div class="cart-amount-icon">0</div></i>
     </header>
 
     <!-- Home Container -->
@@ -125,7 +127,10 @@
 
     <!-- Footer -->
     <footer>
-        <p>Got a question? Contact us <span class="email"><i class="fas fa-envelope"></i> shopping@cart.com</span> or <span><i class="fas fa-phone-alt"></i> 123 456 789</span></p>
+        <p>Got a question? Contact us 
+        <span class="email"><i class="fas fa-envelope"></i> shopping@cart.com</span> 
+        or 
+        <span><i class="fas fa-phone-alt"></i> 123 456 789</span></p>
     </footer>
     
     <script src="./scripts/index.js"></script>
