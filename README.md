@@ -1,7 +1,9 @@
 # Shopping cart
 
-The premise was to create a simple shopping cart page based on Vanilla JavaScript. That's why page is not mobile first although i added some media queries.
+The premise was to create a simple shopping cart page based on Vanilla JavaScript. The page is responsive but not intended for mobile.
 
-## About
+This is a simple store page with an efficient shopping cart. Technologies I used when creating the project are: HTML, CSS(SCSS), JavaSctipt, Git, FontAwesome Icons. I used free pictures downloaded from pexels.com and pixabay.com.
 
-This is my first project which I created only based on my knowledge and which I make publicly available. So it may be far from perfect but it works and looks good :)
+# Me
+
+This is my first project which I created and made publicly available. So it may be far from perfect but it works and looks good :)
